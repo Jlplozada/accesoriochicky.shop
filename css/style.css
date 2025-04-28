@@ -27,9 +27,9 @@ body {
 .profile-img {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain; /* Asegura que la imagen no se recorte */
     margin-bottom: 10px;
+    background-color: var(--color-contenedor); /* Opcional: fondo para imágenes transparentes */
 }
 
 h2 {
